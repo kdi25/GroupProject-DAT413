@@ -87,8 +87,8 @@ The dataset contains accelerometer and gyroscope measurements from a Samsung Gal
 
 ## Output
 
-### `tidy_data.txt` - Final tidy dataset in SSV format
-### `tidy_data.csv` - Final tidy dataset in CSV format (Python, Excel, or R use)
+- `tidy_data.txt` - Final tidy dataset in SSV format
+- `tidy_data.csv` - Final tidy dataset in CSV format (Python, Excel, or R use)
 
 ---
 
