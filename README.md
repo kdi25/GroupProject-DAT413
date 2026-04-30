@@ -20,15 +20,15 @@ The dataset contains accelerometer and gyroscope measurements from a Samsung Gal
 
 ## Functionality
 
-GroupWork.R` performs the following:
+`GroupWork.R` performs the following:
 
-### 1. Load Required Libraries
+### Load Required Libraries
 - Uses `dplyr` and `tidyr`
 - Automatically installs them if missing
 
 ---
 
-### 2. Load Dataset
+### Load Dataset
 - Checks dataset directory (`UCI HAR Dataset`)
 - Loads:
   - Feature names (`features.txt`)
@@ -38,7 +38,7 @@ GroupWork.R` performs the following:
 
 ---
 
-### 3. Merge Training and Test Sets
+### Merge Training and Test Sets
 - Combines:
   - Subject data
   - Activity labels
@@ -47,14 +47,14 @@ GroupWork.R` performs the following:
 
 ---
 
-### 4. Extract Mean and Standard Deviation Measurements
+### Store Mean and Standard Deviation Measurements
 - Stores only variables containing:
   - `mean()`
   - `std()`
 
 ---
 
-### 5. Apply Descriptive Activity Names
+### Apply Activity Names
 - Replaces activity IDs with names:
   - WALKING  
   - WALKING_UPSTAIRS  
@@ -65,18 +65,18 @@ GroupWork.R` performs the following:
 
 ---
 
-### 6. Label Dataset with Descriptive Variable Names
+### Label Dataset with Descriptive Variable Names
 - Cleans variable names:
   - `t` → `time`
   - `f` → `frequency`
   - `Acc` → `Accelerometer`
   - `Gyro` → `Gyroscope`
   - `Mag` → `Magnitude`
-- Removes special characters and improves readability
+- Removes special characters and cleans names
 
 ---
 
-### 7. Create Final Tidy Dataset
+### Create Final Tidy Dataset
 - Groups data by:
   - Subject
   - Activity
