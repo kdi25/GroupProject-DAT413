@@ -18,9 +18,28 @@ The dataset contains accelerometer and gyroscope measurements from a Samsung Gal
 
 ---
 
-## Functionality
+## Setup
 
-`GroupWork.R` performs the following:
+- Download `UCI HAR Dataset` from https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
+- Extract the dataset
+- Place the dataset in you R working directory
+  
+---
+
+## Requirements
+- R version 3.6+ recommended
+
+---
+
+## How to Use
+- Setup the dataset as shown above
+- Open `GroupWork.R` in RStudio or R console
+- Run the script
+- Output files `tidy_data.txt` and `tidy_data.csv` will be stored in your working directory
+
+---
+
+## Functionality
 
 ### Load Required Libraries
 - Uses `dplyr` and `tidyr`
@@ -92,7 +111,12 @@ The dataset contains accelerometer and gyroscope measurements from a Samsung Gal
 
 ---
 
-## How to use
+## Credits
+- Dataset: UCI Machine Learning Repository
+- Original expirement by Smartlab
 
-### 1. Download dataset
-Place the dataset in your working directory:
+---
+
+## Authors
+- Tommy Alleca
+- Kaden Dixon
