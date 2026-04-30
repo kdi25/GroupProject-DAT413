@@ -67,11 +67,11 @@ The dataset contains accelerometer and gyroscope measurements from a Samsung Gal
 
 ### Label Dataset with Descriptive Variable Names
 - Cleans variable names:
-  - `t` → `time`
-  - `f` → `frequency`
-  - `Acc` → `Accelerometer`
-  - `Gyro` → `Gyroscope`
-  - `Mag` → `Magnitude`
+  - `t` -> `time`
+  - `f` -> `frequency`
+  - `Acc` -> `Accelerometer`
+  - `Gyro` -> `Gyroscope`
+  - `Mag` -> `Magnitude`
 - Removes special characters and cleans names
 
 ---
